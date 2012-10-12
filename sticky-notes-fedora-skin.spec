@@ -30,7 +30,7 @@ cp -pr fedora ${RPM_BUILD_ROOT}%{_datadir}/sticky-notes/skins
 
 %files
 %doc README.*
-/usr/share/sticky-notes/skins/fedora
+%{_datadir}/sticky-notes/skins/fedora
 
 
 %changelog
