@@ -1,5 +1,5 @@
 Name:       sticky-notes-fedora-skin
-Version:    0.1
+Version:    0.1.2
 Release:    1%{?dist}
 Summary:    A Fedora skin for Sticky notes
 
@@ -34,6 +34,9 @@ cp -pr fedora ${RPM_BUILD_ROOT}%{_datadir}/sticky-notes/skins
 
 
 %changelog
+* Fri Oct 12 2012 Athmane Madjoudj <athmane@fedoraproject.org> 0.1.2-1
+- Update to 0.1.2
+
 * Thu Jul 26 2012 Athmane Madjoudj <athmane@fedoraproject.org> 0.1-1
 - First spec.
 
