@@ -5,7 +5,7 @@ Summary:    A Fedora skin for Sticky notes
 
 License:    GPLv2+
 URL:        https://github.com/athmane/sticky-notes-fedora-skin	
-Source0:    sticky-notes-fedora-skin-0.1.tar.gz	
+Source0:    sticky-notes-fedora-skin-%{version}.tar.gz	
 
 Requires:   sticky-notes	
 BuildArch:  noarch
