@@ -531,6 +531,11 @@ hr {
     float: right;
 }
 
-.codewrap {
+.codewrap, .codewrap_small {
     font-size: 12px;
+    color: #000;
+}
+
+.codewrap li:hover {
+    background: #f0f0f0;
 }
