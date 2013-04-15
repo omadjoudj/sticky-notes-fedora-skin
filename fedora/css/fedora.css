@@ -556,8 +556,6 @@ a.btn:hover, a.btn:visited {
     background: #f0f0f0;
 }
 
-.row {
-    margin-top: 12px;
-    margin-bottom: 32px;
+.pasteinfo {
+    padding-bottom: 50px;
 }
-
