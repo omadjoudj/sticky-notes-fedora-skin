@@ -470,6 +470,7 @@ span#loginInfo {
 
 hr {
     border: 1px solid #ccc;
+    margin-top: 10px;
 }
 
 #paste_data {
@@ -513,7 +514,7 @@ hr {
     margin-left: 10px;
 }
 
-#paste_button {
+#paste_button, .btn, .page_no {
     margin-left: 60px;
     background: #234f8c;
     color: #fff;
@@ -525,6 +526,21 @@ hr {
     padding: 7px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.btn, .page_no {
+    padding: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    text-transform: none;
+}
+
+.page_current {
+    font-weight: bold;
+}
+
+a.btn:hover, a.btn:visited {
+    color: #fff;
 }
 
 .pull-right {
@@ -539,3 +555,9 @@ hr {
 .codewrap li:hover {
     background: #f0f0f0;
 }
+
+.row {
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
