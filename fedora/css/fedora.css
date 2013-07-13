@@ -483,6 +483,14 @@ hr {
     border-radius: 3px;
 }
 
+#paste_title {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CCCCCC;
+    width: 626px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
 .pre-cache {
     display: none;
 }

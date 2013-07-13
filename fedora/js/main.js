@@ -129,4 +129,5 @@ $(document).ready(function() {
     // Remove php geshi inline css in code area
     $(".codewrap ol li").removeAttr("style");
     $(".codewrap_small ol li").removeAttr("style");
+    $(".codewrap div").removeClass("text");
 });
