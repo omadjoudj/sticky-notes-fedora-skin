@@ -130,4 +130,29 @@ $(document).ready(function() {
     $(".codewrap ol li").removeAttr("style");
     $(".codewrap_small ol li").removeAttr("style");
     $(".codewrap div").removeClass("text");
+
+    // URL shorener logic
+    var shortener = $("#shorten_url").attr('data-shortener');
+    
+    // Get the short URL    
+    $("#shorten_url").html("Waiting for URL shortening...");
+
+    $.get(shortener, function(data) {
+        if (data != "ERROR") {
+            $('#shorten_url')
+                .attr('href', data)
+                .html(data)
+                .removeClass('btn-info')
+                .addClass('btn-link');
+        } else {
+            $('#shorten_url')
+                .html("Error generating short URL")
+                .removeClass('btn-info')
+                .addClass('btn-danger disabled');
+            
+        }
+    });
+
+    return false;
+
 });

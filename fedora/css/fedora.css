@@ -567,3 +567,13 @@ a.btn:hover, a.btn:visited {
 .pasteinfo {
     padding-bottom: 50px;
 }
+
+#short_url_box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CCCCCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline;
+    padding: 4px;
+}
